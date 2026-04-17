@@ -1,0 +1,12 @@
+# References 
+
+- အမျိုးသားတီဘီရောဂါတိုက်ဖျက်ရေးစီမံကိန်း [https://ntpmyanmar.org/](https://ntpmyanmar.org/)
+- WHO Feature News [https://www.who.int/southeastasia/news/feature-stories/detail/experts-review-myanmar-s-progress-and-challenges-in-the-fight-against-tuberculosis-and-recommend-future-directions](https://www.who.int/southeastasia/news/feature-stories/detail/experts-review-myanmar-s-progress-and-challenges-in-the-fight-against-tuberculosis-and-recommend-future-directions)
+- WHO Feature News [https://www.who.int/southeastasia/news/feature-stories/detail/how-myanmar-achieved-the-2020-milestone-of-reducing-TB-disease-burden](https://www.who.int/southeastasia/news/feature-stories/detail/how-myanmar-achieved-the-2020-milestone-of-reducing-TB-disease-burden)
+- MOH / NUG [https://moh.nugmyanmar.org/my/childhood-tb-october-2023/](https://moh.nugmyanmar.org/my/childhood-tb-october-2023/)
+- MOH / NUG [https://moh.nugmyanmar.org/my/tb-tuberculosis-mdr-tb-october-2022/](https://moh.nugmyanmar.org/my/tb-tuberculosis-mdr-tb-october-2022/)
+- Mycobacterium Tuberculosis [https://en.wikipedia.org/wiki/Mycobacterium_tuberculosis](https://en.wikipedia.org/wiki/Mycobacterium_tuberculosis)
+- TB Infection Control Manual Myanmar - 2017 [https://www.challengetb.org/publications/tools/country/TB_Infection_Control_Manual_Myanmar_Bur.pdf](https://www.challengetb.org/publications/tools/country/TB_Infection_Control_Manual_Myanmar_Bur.pdf)
+- Active TB Drug Safety Monitoring and Management Manual Myanmar - 2017 [https://www.moh.gov.mm/wp-content/uploads/2025/09/Active-TB-Drug-Safety-Monitoring-and-Management-Manual_Myanmar.pdf](https://www.moh.gov.mm/wp-content/uploads/2025/09/Active-TB-Drug-Safety-Monitoring-and-Management-Manual_Myanmar.pdf)
+- UPDATED NATIONAL GUIDELINES ON DRUG RESISTANT TUBERCULOSIS (DR-TB) TREATMENT IN MYANMAR - Draft V 5.2.3 - 2025 [https://ntpmyanmar.org/wp-content/uploads/2025/05/DR-TB-updated-national-guidelines-DRAFT-V-5.2.3_Mar-2025.pdf](https://ntpmyanmar.org/wp-content/uploads/2025/05/DR-TB-updated-national-guidelines-DRAFT-V-5.2.3_Mar-2025.pdf)
+- Wikipedia - တီဘီရောဂါ [https://my.wikipedia.org/wiki/%E1%80%90%E1%80%AE%E1%80%98%E1%80%AE%E1%80%9B%E1%80%B1%E1%80%AC%E1%80%82%E1%80%AB](https://my.wikipedia.org/wiki/%E1%80%90%E1%80%AE%E1%80%98%E1%80%AE%E1%80%9B%E1%80%B1%E1%80%AC%E1%80%82%E1%80%AB)
