@@ -1,6 +1,6 @@
 # Myanmar Tuberculosis Guidelines Instructions
 
-Empowering Myanmar's fight against Tuberculosis by turning life-saving guidelines into a bilingual engine for AI and education. **Myanmar–English Parallel Instructional Dataset for Tuberculosis Education and AI Research**
+A bilingual instructional dataset built to support Myanmar's ongoing fight against tuberculosis — turning life-saving guidelines into a usable resource for healthcare workers, educators, and AI researchers working with low-resource languages.
 
 ---
 
@@ -8,11 +8,11 @@ Empowering Myanmar's fight against Tuberculosis by turning life-saving guideline
 
 ## Abstract
 
-Tuberculosis (TB) remains a major public health challenge in Myanmar, where access to standardized medical education materials in the Myanmar language is limited. This repository presents the **Myanmar Tuberculosis Instruction Dataset**, a curated, professionally translated instructional dataset derived from World Health Organization (WHO) tuberculosis guidelines, Myanmar National TB Programme (NTP) protocols, and authoritative medical reference books.
+Tuberculosis is still one of Myanmar's biggest public health problems. Part of the difficulty is that good, standardized TB education materials in the Myanmar language are hard to come by — most of what's authoritative exists only in English. This repository introduces the **Myanmar Tuberculosis Instruction Dataset**, a curated parallel corpus drawn from WHO tuberculosis guidelines, the Myanmar National TB Programme (NTP), and established medical reference texts.
 
-The dataset provides Myanmar–English parallel instructional content covering TB diagnosis, treatment, drug management, and patient education. It is designed to support healthcare worker training, public health education, and AI-driven medical language model development in a low-resource language context.
+The data is organized as Myanmar–English instruction–response pairs covering diagnosis, treatment regimens, drug management, and patient education. It's meant to serve two audiences at once: people training healthcare workers or building patient education tools, and researchers building Myanmar-language medical NLP systems where decent training data has been almost nonexistent.
 
-**Keywords:** Tuberculosis, Myanmar Language, WHO Guidelines, National TB Programme, Medical Translation, Healthcare Education, Medical NLP, Low-Resource Languages
+**Keywords:** Tuberculosis · Myanmar Language · WHO Guidelines · National TB Programme · Medical Translation · Healthcare Education · Medical NLP · Low-Resource Languages
 
 ---
 
@@ -41,23 +41,23 @@ The dataset provides Myanmar–English parallel instructional content covering T
 
 ## 1. Introduction
 
-Myanmar is classified as a high tuberculosis burden country, facing challenges in early diagnosis, treatment adherence, and healthcare workforce training. While WHO-endorsed TB guidelines and technical documents are widely available in English, Myanmar-language instructional resources remain fragmented and insufficient, particularly in structured formats suitable for scalable education and AI applications.
+Myanmar sits on the WHO list of high TB burden countries, and the on-the-ground picture matches the label: late diagnosis, treatment dropouts, and a healthcare workforce that often has to learn from English-only materials. WHO guidelines and technical documents are excellent, but they assume a reader who can work comfortably in English. Myanmar-language TB resources do exist — they're just scattered, inconsistent, and rarely formatted in a way that's useful for either training programs or modern AI systems.
 
-Language barriers reduce effective guideline dissemination, healthcare worker comprehension, and patient adherence. Simultaneously, advances in artificial intelligence highlight the importance of high-quality, domain-specific datasets in under-represented languages.
+That gap matters in two ways. First, language friction slows down how guidelines actually reach the clinic and the patient. Second, because medical AI now depends heavily on instruction-tuned datasets, low-resource languages risk being left out of every useful tool built in the next few years.
 
-This project addresses these challenges by translating, curating, and structuring authoritative TB instructional content into Myanmar language, aligned with global standards and national implementation needs.
+This project is one attempt to close that gap for tuberculosis specifically. The work involved translating, restructuring, and aligning authoritative TB content into Myanmar so it follows global standards while remaining usable in a Myanmar clinical and educational setting.
 
 ---
 
 ## 2. Objectives
 
-The objectives of this dataset are:
+The dataset was built with the following goals in mind:
 
-- To provide standardized TB instructional materials in Myanmar language
-- To align local healthcare education with WHO and Myanmar NTP standards
-- To support healthcare worker training and patient education
-- To enable AI and NLP research in Myanmar medical contexts
-- To contribute to equitable access to healthcare knowledge
+- Provide standardized TB instructional content in the Myanmar language
+- Keep local healthcare education aligned with WHO and Myanmar NTP standards
+- Support training for healthcare workers as well as patient-facing education
+- Make Myanmar-language medical AI and NLP research practical
+- Push back, even modestly, against the inequity in who gets access to good medical knowledge
 
 ---
 
@@ -65,29 +65,26 @@ The objectives of this dataset are:
 
 ### 3.1 Source Materials
 
-The dataset is compiled from:
+The content draws on three sources:
 
-- World Health Organization (WHO) tuberculosis guidelines and technical manuals
-- Myanmar National TB Programme (NTP) protocols and implementation documents
-- Standard medical reference textbooks related to tuberculosis
+- WHO tuberculosis guidelines and technical manuals
+- Myanmar NTP protocols and implementation documents
+- Standard medical reference textbooks covering tuberculosis
 
-All source materials were publicly accessible or authorized for educational use.
+Everything used was either publicly available or cleared for educational use.
 
 ### 3.2 Translation and Curation
 
-- Medical translation was conducted by the author using standardized Myanmar medical terminology.
-- Terminology alignment was maintained using a curated glossary consistent with WHO TB definitions.
-- Content was rewritten into clear instructional formats suitable for education and AI instruction-tuning.
-- Redundant or outdated information was excluded where appropriate.
+Translation was done by the author, working from a controlled glossary of Myanmar medical terminology. The goal wasn't a literal word-for-word rendering — those tend to read awkwardly in Burmese — but a clear instructional version that a Myanmar healthcare worker would actually find readable. Definitions were kept consistent with WHO TB usage, and content was rewritten into instruction–response pairs suitable for teaching and for instruction tuning. Where source material was redundant or had been superseded, it was dropped.
 
 ### 3.3 Quality Assurance
 
-Quality assurance included:
+Quality checks happened at several points:
 
-- Cross-checking translations against original English sources
-- Terminology consistency validation
-- Instructional clarity and structure review
-- Alignment verification with WHO TB guideline versions available at the time of compilation
+- Translations were cross-referenced against the original English source
+- Terminology was checked for internal consistency across entries
+- Each entry was reviewed for instructional clarity and structural soundness
+- Content was verified against the WHO TB guideline versions in effect at the time of compilation
 
 ---
 
@@ -95,11 +92,11 @@ Quality assurance included:
 
 ### 4.1 Dataset Access and Links
 
-The Myanmar Tuberculosis Instruction Dataset (v1.0) is available at:
+The Myanmar Tuberculosis Instruction Dataset (v1.0) is hosted at:
 
-- **Primary Repository:** [https://huggingface.co/datasets/minsithu/Myanmar-Tuberculosis-Guidelines-Instructions](https://huggingface.co/datasets/minsithu/Myanmar-Tuberculosis-Guidelines-Instructions)
-- **Source Code / Tools:** [https://github.com/MinSiThu/Myanmar-Tuberculosis-Guidelines-Instructions](https://github.com/MinSiThu/Myanmar-Tuberculosis-Guidelines-Instructions)
-- **Documentation:** Included in repository README and dataset card
+- **Primary repository:** [https://huggingface.co/datasets/minsithu/Myanmar-Tuberculosis-Guidelines-Instructions](https://huggingface.co/datasets/minsithu/Myanmar-Tuberculosis-Guidelines-Instructions)
+- **Source code and tools:** [https://github.com/MinSiThu/Myanmar-Tuberculosis-Guidelines-Instructions](https://github.com/MinSiThu/Myanmar-Tuberculosis-Guidelines-Instructions)
+- **Documentation:** in the repository README and dataset card
 
 ### 4.2 Dataset Statistics (v1.0)
 
@@ -124,6 +121,8 @@ The Myanmar Tuberculosis Instruction Dataset (v1.0) is available at:
 | Diagnostic protocols | 237 |
 | Drug management | 218 |
 | Infection control | 36 |
+
+The distribution leans toward treatment and training, which reflects where the biggest practical gaps in Myanmar-language material currently sit. Infection control is intentionally lighter — most of the relevant guidance is short, procedural, and didn't need padding to bulk up the count.
 
 ### 4.4 Dataset Visualizations
 
@@ -151,18 +150,18 @@ The Myanmar Tuberculosis Instruction Dataset (v1.0) is available at:
 
 ## 5. Data Structure and Schema
 
-Each dataset entry follows a standardized schema:
+Every record uses the same schema:
 
 | Field | Description |
 |-------|-------------|
 | id | Unique record identifier |
-| instruction_en | English instruction |
-| instruction_my | Myanmar translation |
-| response_en | English guideline response |
-| response_my | Myanmar guideline response |
+| instruction_en | Instruction in English |
+| instruction_my | Myanmar translation of the instruction |
+| response_en | Guideline-aligned response in English |
+| response_my | Guideline-aligned response in Myanmar |
 | category | TB domain category |
-| source | WHO / NTP / Reference |
-| guideline_version | Guideline year/version |
+| source | WHO, NTP, or reference text |
+| guideline_version | Year/version of the source guideline |
 | notes | Optional annotations |
 
 ---
@@ -187,100 +186,110 @@ Each dataset entry follows a standardized schema:
 
 ## 7. Ethical Considerations
 
-The dataset contains no patient-level, personal, or clinical case data. All content is instructional and guideline-based.
+There is no patient-level data, no personal data, and no clinical case material in the dataset. Everything is instructional and traces back to published guidelines.
 
-The dataset is intended for educational and research use only and must not replace professional medical judgment or up-to-date clinical guidance.
+The dataset is meant for education and research. It is not a substitute for clinical judgment, and it should not be used as the sole reference for treating real patients — guidelines change, and any real clinical decision needs the most current source.
 
 ---
 
 ## 8. Validation and Quality Control
 
-Validation procedures included:
+### 8.1 Terminology Standardization
 
-- Terminology normalization using a Myanmar medical glossary
-- Guideline alignment checks
-- Structural consistency review
+The starting point for translation was a controlled vocabulary built from the Myanmar National TB Programme. NTP terminology is what's actually used in Myanmar clinical practice, so anchoring the dataset there makes the language feel correct to a working clinician rather than translated.
 
-The dataset prioritizes instructional fidelity, linguistic clarity, and guideline accuracy.
+That vocabulary was then applied across the dataset so the same disease, the same regimen, and the same diagnostic procedure get the same Burmese term every time. Where NTP didn't have a defined term — which happens, especially for newer or more technical concepts — we fell back to WHO-aligned phrasing and adapted carefully, keeping the clinical meaning intact.
+
+After the vocabulary was settled, the actual translation and curation work began. Each entry was checked against the controlled terminology before being accepted. Doing it in this order — terminology first, then content — was a deliberate choice; it cuts down on inconsistency much more effectively than trying to harmonize terms after the fact.
+
+### 8.2 Validation Procedures
+
+- Terminology normalization against the Myanmar medical glossary
+- Alignment checks against the source guideline
+- Structural review for schema consistency
+
+The priority throughout was instructional fidelity and linguistic clarity, in that order.
 
 ---
 
 ## 9. Limitations
 
-- Guideline updates after dataset release may not be reflected.
-- Translation interpretation bias may exist.
-- The dataset focuses exclusively on TB and does not comprehensively cover TB-HIV or other comorbidities.
-- It is instructional, not clinical outcome data.
+A few things are worth being upfront about:
+
+- WHO and NTP guidelines are revised periodically, and updates released after this dataset will not be reflected until a new version is published.
+- Translation involves interpretation, and some bias is unavoidable, even with controlled terminology.
+- The scope is TB only. TB–HIV co-management and other comorbidities are touched on but not covered comprehensively.
+- This is instructional content, not clinical outcome data. It cannot be used to evaluate treatment effectiveness on its own.
 
 ---
 
 ## 10. Applications
 
-The dataset supports:
+The dataset has been built with the following uses in mind:
 
-- Healthcare worker training programs
-- AI-powered TB education tools
-- Myanmar-language medical LLM instruction tuning
-- Medical question-answering systems
-- Translation benchmarking
-- Low-resource medical NLP research
+- Training programs for healthcare workers
+- AI-assisted TB education tools
+- Instruction tuning of Myanmar-language medical LLMs
+- Medical question answering in Myanmar
+- Benchmarking translation systems on medical text
+- General low-resource medical NLP research
 
 ---
 
 ## 11. Baseline AI and NLP Tasks Enabled
 
 - Instruction tuning
-- TB guideline QA
-- Text classification
-- Summarization
-- Translation evaluation
+- TB guideline question answering
+- Text classification by TB domain category
+- Summarization of guideline content
+- Translation evaluation between Myanmar and English in a medical setting
 
 ---
 
 ## 12. Licensing
 
-The dataset is released under the **MIT License**.
+Released under the **MIT License**.
 
-Copyright (c) 2026 Min Si Thu
+Copyright (c) 2026 Min Si Thu.
 
-Derivative translations of WHO materials are provided for educational and research purposes.
+Translations derived from WHO materials are provided strictly for educational and research purposes.
 
 ---
 
 ## 13. Versioning and Maintenance
 
 - **Current version:** v1.0
-- **Planned updates:** Aligned with WHO TB guideline revisions
-- **Change log:** Documented per release
+- **Planned updates:** to track WHO TB guideline revisions
+- **Change log:** maintained per release
 
 ---
 
 ## 14. Related Work and Research Gap
 
-Existing TB datasets focus primarily on structured clinical or high-resource language data. This dataset addresses the lack of instructional, guideline-based TB datasets in Myanmar language, enabling both healthcare education and AI research.
+Most TB-related datasets are either structured clinical data or English-only research corpora. There is very little instructional, guideline-based TB material in Myanmar that has been organized in a way that's useful for both education and machine learning. This dataset is an attempt to fill that specific gap rather than to compete with broader clinical or epidemiological datasets.
 
 ---
 
 ## 15. Societal Impact
 
-This dataset contributes to:
+The hoped-for impact is straightforward:
 
-- Improved access to standardized TB knowledge
-- Reduced language barriers in healthcare education
-- Empowerment of Myanmar-based AI research
-- Progress toward healthcare knowledge equity
+- TB knowledge that's already standardized internationally becomes more accessible inside Myanmar
+- Language barriers in healthcare education shrink, even if only by a small amount
+- Myanmar-based AI research gets a usable resource it didn't have before
+- The broader project of healthcare knowledge equity moves a step forward
 
 ---
 
 ## 16. Conclusion
 
-The Myanmar Tuberculosis Instruction Dataset provides a structured, authoritative, and AI-ready TB instructional resource in Myanmar language. It bridges global health standards with local accessibility, supporting healthcare capacity building and low-resource medical AI development.
+The Myanmar Tuberculosis Instruction Dataset is a focused attempt to make authoritative TB knowledge usable in Myanmar — both for the people teaching and learning it, and for the systems being built on top of it. It connects global standards with local accessibility, and it's offered as a starting point that other contributors are welcome to build on.
 
 ---
 
 ## Acknowledgments
 
-The author acknowledges the World Health Organization and Myanmar National TB Programme for publicly available guideline materials that informed this dataset.
+Thanks to the World Health Organization and the Myanmar National TB Programme for making the guideline materials that underpin this dataset publicly available.
 
 ---
 
@@ -300,11 +309,10 @@ The author acknowledges the World Health Organization and Myanmar National TB Pr
 
 ## References
 
-See [References.md](References.md) for the full list of source materials and authoritative references used in creating this dataset.
+See [References.md](References.md) for the full list of source materials used in building this dataset.
 
 ---
 
 ## Contact
 
-For questions, contributions, or collaboration inquiries, please open an issue on the GitHub repository or contact the author through the Hugging Face dataset page.
-
+For questions, contributions, or collaboration, please open an issue on the GitHub repository or reach out through the Hugging Face dataset page.
