@@ -75,7 +75,7 @@ Everything used was either publicly available or cleared for educational use.
 
 ### 3.2 Translation and Curation
 
-Translation was done by the author, working from a controlled glossary of Myanmar medical terminology. The goal wasn't a literal word-for-word rendering — those tend to read awkwardly in Burmese — but a clear instructional version that a Myanmar healthcare worker would actually find readable. Definitions were kept consistent with WHO TB usage, and content was rewritten into instruction–response pairs suitable for teaching and for instruction tuning. Where source material was redundant or had been superseded, it was dropped.
+Translation was carried out by the authors, working from a controlled glossary of Myanmar medical terminology. The goal wasn't a literal word-for-word rendering — those tend to read awkwardly in Burmese — but a clear instructional version that a Myanmar healthcare worker would actually find readable. Definitions were kept consistent with WHO TB usage, and content was rewritten into instruction–response pairs suitable for teaching and for instruction tuning. Where source material was redundant or had been superseded, it was dropped.
 
 ### 3.3 Quality Assurance
 
@@ -250,7 +250,7 @@ The dataset has been built with the following uses in mind:
 
 Released under the **MIT License**.
 
-Copyright (c) 2026 Min Si Thu.
+Copyright (c) 2026 Min Si Thu and Khin Myat Noe.
 
 Translations derived from WHO materials are provided strictly for educational and research purposes.
 
@@ -289,7 +289,7 @@ The Myanmar Tuberculosis Instruction Dataset is a focused attempt to make author
 
 ## Acknowledgments
 
-Thanks to the World Health Organization and the Myanmar National TB Programme for making the guideline materials that underpin this dataset publicly available.
+The authors thank the World Health Organization and the Myanmar National TB Programme for making the guideline materials that underpin this dataset publicly available.
 
 ---
 
@@ -298,7 +298,7 @@ Thanks to the World Health Organization and the Myanmar National TB Programme fo
 ```bibtex
 @dataset{myanmar_tb_instruction_2026,
   title={Myanmar Tuberculosis Instruction Dataset},
-  author={Min Si Thu},
+  author={Min Si Thu, Khin Myat Noe},
   year={2026},
   version={1.0},
   url={https://huggingface.co/datasets/minsithu/Myanmar-Tuberculosis-Guidelines-Instructions}
