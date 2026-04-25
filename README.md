@@ -4,7 +4,7 @@ Empowering Myanmar's fight against Tuberculosis by turning life-saving guideline
 
 ---
 
-![Myanmar Tuberculosis Guidelines Instructions Logo](https://github.com/MinSiThu/Myanmar-Tuberculosis-Guidelines-Instructions/blob/main/assets/logo.png?raw=true)
+![Myanmar Tuberculosis Guidelines Instructions Logo](https://github.com/MinSiThu/Myanmar-Tuberculosis-Guidelines-Instructions/blob/main/logo.png?raw=true)
 
 ## Abstract
 
