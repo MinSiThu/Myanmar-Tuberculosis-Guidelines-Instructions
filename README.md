@@ -1,5 +1,7 @@
 # Myanmar Tuberculosis Guidelines Instructions
 
+[![DOI](https://zenodo.org/badge/1213564334.svg)](https://doi.org/10.5281/zenodo.19751460)
+
 A bilingual instructional dataset built to support Myanmar's ongoing fight against tuberculosis — turning life-saving guidelines into a usable resource for healthcare workers, educators, and AI researchers working with low-resource languages.
 
 ---

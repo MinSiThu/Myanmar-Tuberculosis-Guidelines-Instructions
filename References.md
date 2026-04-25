@@ -10,10 +10,6 @@ National Unity Government of Myanmar, Ministry of Health. (2023, October). *က�
 
 USAID Challenge TB Project. (2017). *Tuberculosis infection control manual: Myanmar* (Burmese ed.). https://www.challengetb.org/publications/tools/country/TB_Infection_Control_Manual_Myanmar_Bur.pdf
 
-Wikipedia contributors. (n.d.-a). *Mycobacterium tuberculosis*. In *Wikipedia*. Retrieved April 25, 2026, from https://en.wikipedia.org/wiki/Mycobacterium_tuberculosis
-
-Wikipedia contributors. (n.d.-b). *တီဘီရောဂါ* [Tuberculosis]. In *မြန်မာ Wikipedia*. Retrieved April 25, 2026, from https://my.wikipedia.org/wiki/တီဘီရောဂါ
-
 World Health Organization, Regional Office for South-East Asia. (n.d.-a). *Experts review Myanmar's progress and challenges in the fight against tuberculosis and recommend future directions*. Retrieved April 25, 2026, from https://www.who.int/southeastasia/news/feature-stories/detail/experts-review-myanmar-s-progress-and-challenges-in-the-fight-against-tuberculosis-and-recommend-future-directions
 
 World Health Organization, Regional Office for South-East Asia. (n.d.-b). *How Myanmar achieved the 2020 milestone of reducing TB disease burden*. Retrieved April 25, 2026, from https://www.who.int/southeastasia/news/feature-stories/detail/how-myanmar-achieved-the-2020-milestone-of-reducing-TB-disease-burden
