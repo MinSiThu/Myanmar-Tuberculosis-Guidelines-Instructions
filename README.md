@@ -1,8 +1,10 @@
 # Myanmar Tuberculosis Guidelines Instructions
 
-**Myanmar–English Parallel Instructional Dataset for Tuberculosis Education and AI Research**
+Empowering Myanmar's fight against Tuberculosis by turning life-saving guidelines into a bilingual engine for AI and education. **Myanmar–English Parallel Instructional Dataset for Tuberculosis Education and AI Research**
 
 ---
+
+![Myanmar Tuberculosis Guidelines Instructions Logo](https://github.com/MinSiThu/Myanmar-Tuberculosis-Guidelines-Instructions/blob/main/assets/logo.png?raw=true)
 
 ## Abstract
 
