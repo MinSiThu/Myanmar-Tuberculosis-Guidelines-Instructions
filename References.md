@@ -1,9 +1,5 @@
 # References
 
-The following references are formatted in APA 7th edition style. Where a clear publication or revision date was unavailable on the source page, "n.d." (no date) is used and a retrieval date is included, in line with APA guidance for content that is likely to change over time.
-
----
-
 National Tuberculosis Programme Myanmar. (n.d.). *အမျိုးသားတီဘီရောဂါတိုက်ဖျက်ရေးစီမံကိန်း* [National Tuberculosis Programme Myanmar]. Retrieved April 25, 2026, from https://ntpmyanmar.org/
 
 National Tuberculosis Programme Myanmar. (2025, March). *Updated national guidelines on drug-resistant tuberculosis (DR-TB) treatment in Myanmar* (Draft Version 5.2.3). https://ntpmyanmar.org/wp-content/uploads/2025/05/DR-TB-updated-national-guidelines-DRAFT-V-5.2.3_Mar-2025.pdf
