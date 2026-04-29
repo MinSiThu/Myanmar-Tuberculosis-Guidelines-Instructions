@@ -303,7 +303,7 @@ The authors thank the World Health Organization and the Myanmar National TB Prog
   author={Min Si Thu, Khin Myat Noe},
   year={2026},
   version={1.0},
-  url={https://huggingface.co/datasets/minsithu/Myanmar-Tuberculosis-Guidelines-Instructions}
+  url={https://huggingface.co/datasets/jojo-ai-mst/Myanmar-Tuberculosis-Guidelines-Instructions}
 }
 ```
 
